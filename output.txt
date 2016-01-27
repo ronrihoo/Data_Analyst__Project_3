@@ -1,0 +1,2198 @@
+Managing working directory...
+....We're in /home/ava/projects/Uda_Project_3
+Looking for /home/ava/projects/Uda_Project_3/OSM_Auditor
+....Directory does not exist.
+....Attempting to make directory OSM_Auditor
+/OSM_Auditor has been successfully created.
+Loading learned names... Learned names could not be imported.
+Managing working directory...
+....We're in /home/ava/projects/Uda_Project_3/OSM_Auditor
+Looking for /home/ava/projects/Uda_Project_3/OSM_Auditor/dallas_map_sample.osm_dir
+....Directory does not exist.
+....Attempting to make directory dallas_map_sample.osm_dir
+/dallas_map_sample.osm_dir has been successfully created.
+Opening output stream...
+Beginning the analysis process...
+
+	Input: West 15th Street
+	['West', '15th', 'Street']
+	Frag_num: 3
+	Prefix: West
+	Suffix: Street
+	Result: W 15th St
+
+	Input: North Central Expressway
+	['North', 'Central', 'Expressway']
+	Frag_num: 3
+	Prefix: North
+	Suffix: Expressway (expected)
+	Result: N Central Expressway
+
+	Input: E Belt Line Rd
+	['E', 'Belt', 'Line', 'Rd']
+	Frag_num: 4
+	Prefix: E (expected)
+	Suffix: Rd (expected)
+	Result: E Belt Line Rd
+
+	Input: Greenville Ave
+	['Greenville', 'Ave']
+	Frag_num: 2
+	Prefix: Greenville
+	....Warning: prefix dictionary may not have been sufficient to support: Greenville
+	Suffix: Ave (expected)
+	Result: Greenville Ave
+
+	Input: Crown Knoll Lane
+	['Crown', 'Knoll', 'Lane']
+	Frag_num: 3
+	Prefix: Crown
+	....Warning: prefix dictionary may not have been sufficient to support: Crown
+	Suffix: Lane
+	Result: Crown Knoll Ln
+
+	Input: Colonial Drive
+	['Colonial', 'Drive']
+	Frag_num: 2
+	Prefix: Colonial
+	....Warning: prefix dictionary may not have been sufficient to support: Colonial
+	Suffix: Drive
+	Result: Colonial Dr
+
+	Input: Mariners Drive
+	['Mariners', 'Drive']
+	Frag_num: 2
+	Prefix: Mariners
+	....Warning: prefix dictionary may not have been sufficient to support: Mariners
+	Suffix: Drive
+	Result: Mariners Dr
+
+	Input: Mariners Drive
+	['Mariners', 'Drive']
+	Frag_num: 2
+	Prefix: Mariners
+	Suffix: Drive
+	Result: Mariners Dr
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: E FM 544
+Word Count: 3
+Starting the Quick Highway scan...
+This string is a potential highway name
+This address value has been deemed as a highway address and will be inserted back into the data without manipulation.
+End of Quick Highway scan.
+Deep scan is complete.
+Result: *highway_code
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: E FM 544
+Word Count: 3
+Starting the Quick Highway scan...
+This string is a potential highway name
+This address value has been deemed as a highway address and will be inserted back into the data without manipulation.
+End of Quick Highway scan.
+Deep scan is complete.
+Result: *highway_code
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: W FM 544
+Word Count: 3
+Starting the Quick Highway scan...
+This string is a potential highway name
+This address value has been deemed as a highway address and will be inserted back into the data without manipulation.
+End of Quick Highway scan.
+Deep scan is complete.
+Result: *highway_code
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: E FM 544
+Word Count: 3
+Starting the Quick Highway scan...
+This string is a potential highway name
+This address value has been deemed as a highway address and will be inserted back into the data without manipulation.
+End of Quick Highway scan.
+Deep scan is complete.
+Result: *highway_code
+
+	Input: West Park Boulevard
+	['West', 'Park', 'Boulevard']
+	Frag_num: 3
+	Prefix: West
+	Suffix: Boulevard
+	Result: W Park Blvd
+
+	Input: Preston Road
+	['Preston', 'Road']
+	Frag_num: 2
+	Prefix: Preston
+	....Warning: prefix dictionary may not have been sufficient to support: Preston
+	Suffix: Road
+	Result: Preston Rd
+
+	Input: Plantation Lane
+	['Plantation', 'Lane']
+	Frag_num: 2
+	Prefix: Plantation
+	....Warning: prefix dictionary may not have been sufficient to support: Plantation
+	Suffix: Lane
+	Result: Plantation Ln
+
+	Input: Sutton Place
+	['Sutton', 'Place']
+	Frag_num: 2
+	Prefix: Sutton
+	....Warning: prefix dictionary may not have been sufficient to support: Sutton
+	Suffix: Place
+	Result: Sutton Pl
+
+	Input: Sutton Place
+	['Sutton', 'Place']
+	Frag_num: 2
+	Prefix: Sutton
+	Suffix: Place
+	Result: Sutton Pl
+
+	Input: Bradbury Court
+	['Bradbury', 'Court']
+	Frag_num: 2
+	Prefix: Bradbury
+	....Warning: prefix dictionary may not have been sufficient to support: Bradbury
+	Suffix: Court
+	Result: Bradbury Ct
+
+	Input: Fawnwood Drive
+	['Fawnwood', 'Drive']
+	Frag_num: 2
+	Prefix: Fawnwood
+	....Warning: prefix dictionary may not have been sufficient to support: Fawnwood
+	Suffix: Drive
+	Result: Fawnwood Dr
+
+	Input: Lawton Lane
+	['Lawton', 'Lane']
+	Frag_num: 2
+	Prefix: Lawton
+	....Warning: prefix dictionary may not have been sufficient to support: Lawton
+	Suffix: Lane
+	Result: Lawton Ln
+
+	Input: Chambers Lane
+	['Chambers', 'Lane']
+	Frag_num: 2
+	Prefix: Chambers
+	....Warning: prefix dictionary may not have been sufficient to support: Chambers
+	Suffix: Lane
+	Result: Chambers Ln
+
+	Input: Chambers Lane
+	['Chambers', 'Lane']
+	Frag_num: 2
+	Prefix: Chambers
+	Suffix: Lane
+	Result: Chambers Ln
+
+	Input: Saint Andrew's Court
+	['Saint', "Andrew's", 'Court']
+	Frag_num: 3
+	Prefix: Saint
+	....Warning: prefix dictionary may not have been sufficient to support: Saint
+	Suffix: Court
+	Result: Saint Andrew's Ct
+
+	Input: Willow Bend Court
+	['Willow', 'Bend', 'Court']
+	Frag_num: 3
+	Prefix: Willow
+	....Warning: prefix dictionary may not have been sufficient to support: Willow
+	Suffix: Court
+	Result: Willow Bend Ct
+
+	Input: Plantation Circle
+	['Plantation', 'Circle']
+	Frag_num: 2
+	Prefix: Plantation
+	Suffix: Circle
+	Result: Plantation Cir
+
+	Input: Champions Drive
+	['Champions', 'Drive']
+	Frag_num: 2
+	Prefix: Champions
+	....Warning: prefix dictionary may not have been sufficient to support: Champions
+	Suffix: Drive
+	Result: Champions Dr
+
+	Input: Banister Court
+	['Banister', 'Court']
+	Frag_num: 2
+	Prefix: Banister
+	....Warning: prefix dictionary may not have been sufficient to support: Banister
+	Suffix: Court
+	Result: Banister Ct
+
+	Input: Cottage Circle
+	['Cottage', 'Circle']
+	Frag_num: 2
+	Prefix: Cottage
+	....Warning: prefix dictionary may not have been sufficient to support: Cottage
+	Suffix: Circle
+	Result: Cottage Cir
+
+	Input: Seville Court
+	['Seville', 'Court']
+	Frag_num: 2
+	Prefix: Seville
+	....Warning: prefix dictionary may not have been sufficient to support: Seville
+	Suffix: Court
+	Result: Seville Ct
+
+	Input: Seville Court
+	['Seville', 'Court']
+	Frag_num: 2
+	Prefix: Seville
+	Suffix: Court
+	Result: Seville Ct
+
+	Input: Woodmont Court
+	['Woodmont', 'Court']
+	Frag_num: 2
+	Prefix: Woodmont
+	....Warning: prefix dictionary may not have been sufficient to support: Woodmont
+	Suffix: Court
+	Result: Woodmont Ct
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	....Warning: prefix dictionary may not have been sufficient to support: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Newgate Lane
+	['Newgate', 'Lane']
+	Frag_num: 2
+	Prefix: Newgate
+	....Warning: prefix dictionary may not have been sufficient to support: Newgate
+	Suffix: Lane
+	Result: Newgate Ln
+
+	Input: Newgate Lane
+	['Newgate', 'Lane']
+	Frag_num: 2
+	Prefix: Newgate
+	Suffix: Lane
+	Result: Newgate Ln
+
+	Input: Turtle Creek Drive
+	['Turtle', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Turtle
+	Suffix: Drive
+	Result: Turtle Creek Dr
+
+	Input: Rutgers Court
+	['Rutgers', 'Court']
+	Frag_num: 2
+	Prefix: Rutgers
+	....Warning: prefix dictionary may not have been sufficient to support: Rutgers
+	Suffix: Court
+	Result: Rutgers Ct
+
+	Input: Wake Forest Drive
+	['Wake', 'Forest', 'Drive']
+	Frag_num: 3
+	Prefix: Wake
+	....Warning: prefix dictionary may not have been sufficient to support: Wake
+	Suffix: Drive
+	Result: Wake Forest Dr
+
+	Input: Notre Dame Drive
+	['Notre', 'Dame', 'Drive']
+	Frag_num: 3
+	Prefix: Notre
+	....Warning: prefix dictionary may not have been sufficient to support: Notre
+	Suffix: Drive
+	Result: Notre Dame Dr
+
+	Input: Wake Forest Drive
+	['Wake', 'Forest', 'Drive']
+	Frag_num: 3
+	Prefix: Wake
+	Suffix: Drive
+	Result: Wake Forest Dr
+
+	Input: Polo Lane
+	['Polo', 'Lane']
+	Frag_num: 2
+	Prefix: Polo
+	....Warning: prefix dictionary may not have been sufficient to support: Polo
+	Suffix: Lane
+	Result: Polo Ln
+
+	Input: Redding Drive
+	['Redding', 'Drive']
+	Frag_num: 2
+	Prefix: Redding
+	....Warning: prefix dictionary may not have been sufficient to support: Redding
+	Suffix: Drive
+	Result: Redding Dr
+
+	Input: Redding Drive
+	['Redding', 'Drive']
+	Frag_num: 2
+	Prefix: Redding
+	Suffix: Drive
+	Result: Redding Dr
+
+	Input: Paddington Drive
+	['Paddington', 'Drive']
+	Frag_num: 2
+	Prefix: Paddington
+	....Warning: prefix dictionary may not have been sufficient to support: Paddington
+	Suffix: Drive
+	Result: Paddington Dr
+
+	Input: Sandray Court
+	['Sandray', 'Court']
+	Frag_num: 2
+	Prefix: Sandray
+	....Warning: prefix dictionary may not have been sufficient to support: Sandray
+	Suffix: Court
+	Result: Sandray Ct
+
+	Input: Darlington Drive
+	['Darlington', 'Drive']
+	Frag_num: 2
+	Prefix: Darlington
+	....Warning: prefix dictionary may not have been sufficient to support: Darlington
+	Suffix: Drive
+	Result: Darlington Dr
+
+	Input: Shelton Way
+	['Shelton', 'Way']
+	Frag_num: 2
+	Prefix: Shelton
+	....Warning: prefix dictionary may not have been sufficient to support: Shelton
+	Suffix: Way (expected)
+	Result: Shelton Way
+
+	Input: Gleneagles Court
+	['Gleneagles', 'Court']
+	Frag_num: 2
+	Prefix: Gleneagles
+	....Warning: prefix dictionary may not have been sufficient to support: Gleneagles
+	Suffix: Court
+	Result: Gleneagles Ct
+
+	Input: Gillum Drive
+	['Gillum', 'Drive']
+	Frag_num: 2
+	Prefix: Gillum
+	....Warning: prefix dictionary may not have been sufficient to support: Gillum
+	Suffix: Drive
+	Result: Gillum Dr
+
+	Input: Gillum Drive
+	['Gillum', 'Drive']
+	Frag_num: 2
+	Prefix: Gillum
+	Suffix: Drive
+	Result: Gillum Dr
+
+	Input: Garrett Drive
+	['Garrett', 'Drive']
+	Frag_num: 2
+	Prefix: Garrett
+	....Warning: prefix dictionary may not have been sufficient to support: Garrett
+	Suffix: Drive
+	Result: Garrett Dr
+
+	Input: Northbrook Drive
+	['Northbrook', 'Drive']
+	Frag_num: 2
+	Prefix: Northbrook
+	....Warning: prefix dictionary may not have been sufficient to support: Northbrook
+	Suffix: Drive
+	Result: Northbrook Dr
+
+	Input: Furneaux Drive
+	['Furneaux', 'Drive']
+	Frag_num: 2
+	Prefix: Furneaux
+	....Warning: prefix dictionary may not have been sufficient to support: Furneaux
+	Suffix: Drive
+	Result: Furneaux Dr
+
+	Input: McCall Drive
+	['McCall', 'Drive']
+	Frag_num: 2
+	Prefix: McCall
+	....Warning: prefix dictionary may not have been sufficient to support: McCall
+	Suffix: Drive
+	Result: McCall Dr
+
+	Input: Braemar Drive
+	['Braemar', 'Drive']
+	Frag_num: 2
+	Prefix: Braemar
+	....Warning: prefix dictionary may not have been sufficient to support: Braemar
+	Suffix: Drive
+	Result: Braemar Dr
+
+	Input: Braemar Drive
+	['Braemar', 'Drive']
+	Frag_num: 2
+	Prefix: Braemar
+	Suffix: Drive
+	Result: Braemar Dr
+
+	Input: Broadmeade Drive
+	['Broadmeade', 'Drive']
+	Frag_num: 2
+	Prefix: Broadmeade
+	....Warning: prefix dictionary may not have been sufficient to support: Broadmeade
+	Suffix: Drive
+	Result: Broadmeade Dr
+
+	Input: Castlebar Lane
+	['Castlebar', 'Lane']
+	Frag_num: 2
+	Prefix: Castlebar
+	....Warning: prefix dictionary may not have been sufficient to support: Castlebar
+	Suffix: Lane
+	Result: Castlebar Ln
+
+	Input: Carnegie Lane
+	['Carnegie', 'Lane']
+	Frag_num: 2
+	Prefix: Carnegie
+	....Warning: prefix dictionary may not have been sufficient to support: Carnegie
+	Suffix: Lane
+	Result: Carnegie Ln
+
+	Input: Davenhill Court
+	['Davenhill', 'Court']
+	Frag_num: 2
+	Prefix: Davenhill
+	....Warning: prefix dictionary may not have been sufficient to support: Davenhill
+	Suffix: Court
+	Result: Davenhill Ct
+
+	Input: Castlebar Lane
+	['Castlebar', 'Lane']
+	Frag_num: 2
+	Prefix: Castlebar
+	Suffix: Lane
+	Result: Castlebar Ln
+
+	Input: Edinburgh Drive
+	['Edinburgh', 'Drive']
+	Frag_num: 2
+	Prefix: Edinburgh
+	....Warning: prefix dictionary may not have been sufficient to support: Edinburgh
+	Suffix: Drive
+	Result: Edinburgh Dr
+
+	Input: Glendower Lane
+	['Glendower', 'Lane']
+	Frag_num: 2
+	Prefix: Glendower
+	....Warning: prefix dictionary may not have been sufficient to support: Glendower
+	Suffix: Lane
+	Result: Glendower Ln
+
+	Input: Kensington Drive
+	['Kensington', 'Drive']
+	Frag_num: 2
+	Prefix: Kensington
+	....Warning: prefix dictionary may not have been sufficient to support: Kensington
+	Suffix: Drive
+	Result: Kensington Dr
+
+	Input: Castlebar Lane
+	['Castlebar', 'Lane']
+	Frag_num: 2
+	Prefix: Castlebar
+	Suffix: Lane
+	Result: Castlebar Ln
+
+	Input: Glendower Lane
+	['Glendower', 'Lane']
+	Frag_num: 2
+	Prefix: Glendower
+	Suffix: Lane
+	Result: Glendower Ln
+
+	Input: Glendower Lane
+	['Glendower', 'Lane']
+	Frag_num: 2
+	Prefix: Glendower
+	Suffix: Lane
+	Result: Glendower Ln
+
+	Input: Kensington Drive
+	['Kensington', 'Drive']
+	Frag_num: 2
+	Prefix: Kensington
+	Suffix: Drive
+	Result: Kensington Dr
+
+	Input: Kensington Drive
+	['Kensington', 'Drive']
+	Frag_num: 2
+	Prefix: Kensington
+	Suffix: Drive
+	Result: Kensington Dr
+
+	Input: Royal Palm Drive
+	['Royal', 'Palm', 'Drive']
+	Frag_num: 3
+	Prefix: Royal
+	....Warning: prefix dictionary may not have been sufficient to support: Royal
+	Suffix: Drive
+	Result: Royal Palm Dr
+
+	Input: Royal Palm Drive
+	['Royal', 'Palm', 'Drive']
+	Frag_num: 3
+	Prefix: Royal
+	Suffix: Drive
+	Result: Royal Palm Dr
+
+	Input: Glendower Lane
+	['Glendower', 'Lane']
+	Frag_num: 2
+	Prefix: Glendower
+	Suffix: Lane
+	Result: Glendower Ln
+
+	Input: Royal Palm Drive
+	['Royal', 'Palm', 'Drive']
+	Frag_num: 3
+	Prefix: Royal
+	Suffix: Drive
+	Result: Royal Palm Dr
+
+	Input: Glendower Lane
+	['Glendower', 'Lane']
+	Frag_num: 2
+	Prefix: Glendower
+	Suffix: Lane
+	Result: Glendower Ln
+
+	Input: Temple Drive
+	['Temple', 'Drive']
+	Frag_num: 2
+	Prefix: Temple
+	....Warning: prefix dictionary may not have been sufficient to support: Temple
+	Suffix: Drive
+	Result: Temple Dr
+
+	Input: McFarland Drive
+	['McFarland', 'Drive']
+	Frag_num: 2
+	Prefix: McFarland
+	....Warning: prefix dictionary may not have been sufficient to support: McFarland
+	Suffix: Drive
+	Result: McFarland Dr
+
+	Input: Temple Drive
+	['Temple', 'Drive']
+	Frag_num: 2
+	Prefix: Temple
+	Suffix: Drive
+	Result: Temple Dr
+
+	Input: Temple Drive
+	['Temple', 'Drive']
+	Frag_num: 2
+	Prefix: Temple
+	Suffix: Drive
+	Result: Temple Dr
+
+	Input: Willowross Way
+	['Willowross', 'Way']
+	Frag_num: 2
+	Prefix: Willowross
+	....Warning: prefix dictionary may not have been sufficient to support: Willowross
+	Suffix: Way (expected)
+	Result: Willowross Way
+
+	Input: Temple Drive
+	['Temple', 'Drive']
+	Frag_num: 2
+	Prefix: Temple
+	Suffix: Drive
+	Result: Temple Dr
+
+	Input: Tipperary Drive
+	['Tipperary', 'Drive']
+	Frag_num: 2
+	Prefix: Tipperary
+	....Warning: prefix dictionary may not have been sufficient to support: Tipperary
+	Suffix: Drive
+	Result: Tipperary Dr
+
+	Input: Temple Drive
+	['Temple', 'Drive']
+	Frag_num: 2
+	Prefix: Temple
+	Suffix: Drive
+	Result: Temple Dr
+
+	Input: Tipperary Drive
+	['Tipperary', 'Drive']
+	Frag_num: 2
+	Prefix: Tipperary
+	Suffix: Drive
+	Result: Tipperary Dr
+
+	Input: Willowross Way
+	['Willowross', 'Way']
+	Frag_num: 2
+	Prefix: Willowross
+	Suffix: Way (expected)
+	Result: Willowross Way
+
+	Input: Tipperary Drive
+	['Tipperary', 'Drive']
+	Frag_num: 2
+	Prefix: Tipperary
+	Suffix: Drive
+	Result: Tipperary Dr
+
+	Input: Fossil Ridge Drive
+	['Fossil', 'Ridge', 'Drive']
+	Frag_num: 3
+	Prefix: Fossil
+	....Warning: prefix dictionary may not have been sufficient to support: Fossil
+	Suffix: Drive
+	Result: Fossil Ridge Dr
+
+	Input: Valleybrook Drive
+	['Valleybrook', 'Drive']
+	Frag_num: 2
+	Prefix: Valleybrook
+	....Warning: prefix dictionary may not have been sufficient to support: Valleybrook
+	Suffix: Drive
+	Result: Valleybrook Dr
+
+	Input: Wing Point Lane
+	['Wing', 'Point', 'Lane']
+	Frag_num: 3
+	Prefix: Wing
+	....Warning: prefix dictionary may not have been sufficient to support: Wing
+	Suffix: Lane
+	Result: Wing Point Ln
+
+	Input: Misty Haven Lane
+	['Misty', 'Haven', 'Lane']
+	Frag_num: 3
+	Prefix: Misty
+	....Warning: prefix dictionary may not have been sufficient to support: Misty
+	Suffix: Lane
+	Result: Misty Haven Ln
+
+	Input: Wing Point Lane
+	['Wing', 'Point', 'Lane']
+	Frag_num: 3
+	Prefix: Wing
+	Suffix: Lane
+	Result: Wing Point Ln
+
+	Input: Winding Hollow Lane
+	['Winding', 'Hollow', 'Lane']
+	Frag_num: 3
+	Prefix: Winding
+	....Warning: prefix dictionary may not have been sufficient to support: Winding
+	Suffix: Lane
+	Result: Winding Hollow Ln
+
+	Input: Wing Point Lane
+	['Wing', 'Point', 'Lane']
+	Frag_num: 3
+	Prefix: Wing
+	Suffix: Lane
+	Result: Wing Point Ln
+
+	Input: Wing Point Lane
+	['Wing', 'Point', 'Lane']
+	Frag_num: 3
+	Prefix: Wing
+	Suffix: Lane
+	Result: Wing Point Ln
+
+	Input: Wing Point Lane
+	['Wing', 'Point', 'Lane']
+	Frag_num: 3
+	Prefix: Wing
+	Suffix: Lane
+	Result: Wing Point Ln
+
+	Input: Winding Hollow Lane
+	['Winding', 'Hollow', 'Lane']
+	Frag_num: 3
+	Prefix: Winding
+	Suffix: Lane
+	Result: Winding Hollow Ln
+
+	Input: Winding Hollow Lane
+	['Winding', 'Hollow', 'Lane']
+	Frag_num: 3
+	Prefix: Winding
+	Suffix: Lane
+	Result: Winding Hollow Ln
+
+	Input: Crown Knoll Lane
+	['Crown', 'Knoll', 'Lane']
+	Frag_num: 3
+	Prefix: Crown
+	Suffix: Lane
+	Result: Crown Knoll Ln
+
+	Input: Crown Knoll Lane
+	['Crown', 'Knoll', 'Lane']
+	Frag_num: 3
+	Prefix: Crown
+	Suffix: Lane
+	Result: Crown Knoll Ln
+
+	Input: Marblewood Drive
+	['Marblewood', 'Drive']
+	Frag_num: 2
+	Prefix: Marblewood
+	....Warning: prefix dictionary may not have been sufficient to support: Marblewood
+	Suffix: Drive
+	Result: Marblewood Dr
+
+	Input: Marblewood Drive
+	['Marblewood', 'Drive']
+	Frag_num: 2
+	Prefix: Marblewood
+	Suffix: Drive
+	Result: Marblewood Dr
+
+	Input: Winding Hollow Lane
+	['Winding', 'Hollow', 'Lane']
+	Frag_num: 3
+	Prefix: Winding
+	Suffix: Lane
+	Result: Winding Hollow Ln
+
+	Input: Winding Hollow Lane
+	['Winding', 'Hollow', 'Lane']
+	Frag_num: 3
+	Prefix: Winding
+	Suffix: Lane
+	Result: Winding Hollow Ln
+
+	Input: Ryder Court
+	['Ryder', 'Court']
+	Frag_num: 2
+	Prefix: Ryder
+	....Warning: prefix dictionary may not have been sufficient to support: Ryder
+	Suffix: Court
+	Result: Ryder Ct
+
+	Input: Firethorn Circle
+	['Firethorn', 'Circle']
+	Frag_num: 2
+	Prefix: Firethorn
+	....Warning: prefix dictionary may not have been sufficient to support: Firethorn
+	Suffix: Circle
+	Result: Firethorn Cir
+
+	Input: Chapman Road
+	['Chapman', 'Road']
+	Frag_num: 2
+	Prefix: Chapman
+	....Warning: prefix dictionary may not have been sufficient to support: Chapman
+	Suffix: Road
+	Result: Chapman Rd
+
+	Input: Masters Circle
+	['Masters', 'Circle']
+	Frag_num: 2
+	Prefix: Masters
+	....Warning: prefix dictionary may not have been sufficient to support: Masters
+	Suffix: Circle
+	Result: Masters Cir
+
+	Input: Chapman Road
+	['Chapman', 'Road']
+	Frag_num: 2
+	Prefix: Chapman
+	Suffix: Road
+	Result: Chapman Rd
+
+	Input: New Britton Drive
+	['New', 'Britton', 'Drive']
+	Frag_num: 3
+	Prefix: New
+	....Warning: prefix dictionary may not have been sufficient to support: New
+	Suffix: Drive
+	Result: New Britton Dr
+
+	Input: Harvard Court
+	['Harvard', 'Court']
+	Frag_num: 2
+	Prefix: Harvard
+	....Warning: prefix dictionary may not have been sufficient to support: Harvard
+	Suffix: Court
+	Result: Harvard Ct
+
+	Input: New Britton Drive
+	['New', 'Britton', 'Drive']
+	Frag_num: 3
+	Prefix: New
+	Suffix: Drive
+	Result: New Britton Dr
+
+	Input: Hillsdale Court
+	['Hillsdale', 'Court']
+	Frag_num: 2
+	Prefix: Hillsdale
+	....Warning: prefix dictionary may not have been sufficient to support: Hillsdale
+	Suffix: Court
+	Result: Hillsdale Ct
+
+	Input: Coventry Lane
+	['Coventry', 'Lane']
+	Frag_num: 2
+	Prefix: Coventry
+	....Warning: prefix dictionary may not have been sufficient to support: Coventry
+	Suffix: Lane
+	Result: Coventry Ln
+
+	Input: Sleepy Hollow Drive
+	['Sleepy', 'Hollow', 'Drive']
+	Frag_num: 3
+	Prefix: Sleepy
+	....Warning: prefix dictionary may not have been sufficient to support: Sleepy
+	Suffix: Drive
+	Result: Sleepy Hollow Dr
+
+	Input: Hillsdale Court
+	['Hillsdale', 'Court']
+	Frag_num: 2
+	Prefix: Hillsdale
+	Suffix: Court
+	Result: Hillsdale Ct
+
+	Input: Coventry Lane
+	['Coventry', 'Lane']
+	Frag_num: 2
+	Prefix: Coventry
+	Suffix: Lane
+	Result: Coventry Ln
+
+	Input: Sleepy Hollow Drive
+	['Sleepy', 'Hollow', 'Drive']
+	Frag_num: 3
+	Prefix: Sleepy
+	Suffix: Drive
+	Result: Sleepy Hollow Dr
+
+	Input: Silver Creek Drive
+	['Silver', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Silver
+	....Warning: prefix dictionary may not have been sufficient to support: Silver
+	Suffix: Drive
+	Result: Silver Creek Dr
+
+	Input: Silver Creek Drive
+	['Silver', 'Creek', 'Drive']
+	Frag_num: 3
+	Prefix: Silver
+	Suffix: Drive
+	Result: Silver Creek Dr
+
+	Input: Bellaire Drive
+	['Bellaire', 'Drive']
+	Frag_num: 2
+	Prefix: Bellaire
+	....Warning: prefix dictionary may not have been sufficient to support: Bellaire
+	Suffix: Drive
+	Result: Bellaire Dr
+
+	Input: Stonewick Court
+	['Stonewick', 'Court']
+	Frag_num: 2
+	Prefix: Stonewick
+	....Warning: prefix dictionary may not have been sufficient to support: Stonewick
+	Suffix: Court
+	Result: Stonewick Ct
+
+	Input: Stonewick Court
+	['Stonewick', 'Court']
+	Frag_num: 2
+	Prefix: Stonewick
+	Suffix: Court
+	Result: Stonewick Ct
+
+	Input: Royal Creek Lane
+	['Royal', 'Creek', 'Lane']
+	Frag_num: 3
+	Prefix: Royal
+	Suffix: Lane
+	Result: Royal Creek Ln
+
+	Input: Castle Creek Court
+	['Castle', 'Creek', 'Court']
+	Frag_num: 3
+	Prefix: Castle
+	....Warning: prefix dictionary may not have been sufficient to support: Castle
+	Suffix: Court
+	Result: Castle Creek Ct
+
+	Input: Castle Creek Court
+	['Castle', 'Creek', 'Court']
+	Frag_num: 3
+	Prefix: Castle
+	Suffix: Court
+	Result: Castle Creek Ct
+
+	Input: Castle Creek Court
+	['Castle', 'Creek', 'Court']
+	Frag_num: 3
+	Prefix: Castle
+	Suffix: Court
+	Result: Castle Creek Ct
+
+	Input: Castle Creek Court
+	['Castle', 'Creek', 'Court']
+	Frag_num: 3
+	Prefix: Castle
+	Suffix: Court
+	Result: Castle Creek Ct
+
+	Input: Captiva Drive
+	['Captiva', 'Drive']
+	Frag_num: 2
+	Prefix: Captiva
+	....Warning: prefix dictionary may not have been sufficient to support: Captiva
+	Suffix: Drive
+	Result: Captiva Dr
+
+	Input: Corinthian Bay Drive
+	['Corinthian', 'Bay', 'Drive']
+	Frag_num: 3
+	Prefix: Corinthian
+	....Warning: prefix dictionary may not have been sufficient to support: Corinthian
+	Suffix: Drive
+	Result: Corinthian Bay Dr
+
+	Input: Corinthian Bay Drive
+	['Corinthian', 'Bay', 'Drive']
+	Frag_num: 3
+	Prefix: Corinthian
+	Suffix: Drive
+	Result: Corinthian Bay Dr
+
+	Input: Seascape Lane
+	['Seascape', 'Lane']
+	Frag_num: 2
+	Prefix: Seascape
+	....Warning: prefix dictionary may not have been sufficient to support: Seascape
+	Suffix: Lane
+	Result: Seascape Ln
+
+	Input: Windjammer Road
+	['Windjammer', 'Road']
+	Frag_num: 2
+	Prefix: Windjammer
+	....Warning: prefix dictionary may not have been sufficient to support: Windjammer
+	Suffix: Road
+	Result: Windjammer Rd
+
+	Input: Corinthian Bay Drive
+	['Corinthian', 'Bay', 'Drive']
+	Frag_num: 3
+	Prefix: Corinthian
+	Suffix: Drive
+	Result: Corinthian Bay Dr
+
+	Input: Seascape Lane
+	['Seascape', 'Lane']
+	Frag_num: 2
+	Prefix: Seascape
+	Suffix: Lane
+	Result: Seascape Ln
+
+	Input: Tate Avenue
+	['Tate', 'Avenue']
+	Frag_num: 2
+	Prefix: Tate
+	....Warning: prefix dictionary may not have been sufficient to support: Tate
+	Suffix: Avenue
+	Result: Tate Ave
+
+	Input: Blake Drive
+	['Blake', 'Drive']
+	Frag_num: 2
+	Prefix: Blake
+	....Warning: prefix dictionary may not have been sufficient to support: Blake
+	Suffix: Drive
+	Result: Blake Dr
+
+	Input: Annabel Lane
+	['Annabel', 'Lane']
+	Frag_num: 2
+	Prefix: Annabel
+	....Warning: prefix dictionary may not have been sufficient to support: Annabel
+	Suffix: Lane
+	Result: Annabel Ln
+
+	Input: Blake Drive
+	['Blake', 'Drive']
+	Frag_num: 2
+	Prefix: Blake
+	Suffix: Drive
+	Result: Blake Dr
+
+	Input: Seascape Lane
+	['Seascape', 'Lane']
+	Frag_num: 2
+	Prefix: Seascape
+	Suffix: Lane
+	Result: Seascape Ln
+
+	Input: Corinthian Bay Drive
+	['Corinthian', 'Bay', 'Drive']
+	Frag_num: 3
+	Prefix: Corinthian
+	Suffix: Drive
+	Result: Corinthian Bay Dr
+
+	Input: Ash Creek Lane
+	['Ash', 'Creek', 'Lane']
+	Frag_num: 3
+	Prefix: Ash
+	....Warning: prefix dictionary may not have been sufficient to support: Ash
+	Suffix: Lane
+	Result: Ash Creek Ln
+
+	Input: Gleneagles Drive
+	['Gleneagles', 'Drive']
+	Frag_num: 2
+	Prefix: Gleneagles
+	Suffix: Drive
+	Result: Gleneagles Dr
+
+	Input: Ash Creek Lane
+	['Ash', 'Creek', 'Lane']
+	Frag_num: 3
+	Prefix: Ash
+	Suffix: Lane
+	Result: Ash Creek Ln
+
+	Input: Gleneagles Drive
+	['Gleneagles', 'Drive']
+	Frag_num: 2
+	Prefix: Gleneagles
+	Suffix: Drive
+	Result: Gleneagles Dr
+
+	Input: Weatherby Lane
+	['Weatherby', 'Lane']
+	Frag_num: 2
+	Prefix: Weatherby
+	....Warning: prefix dictionary may not have been sufficient to support: Weatherby
+	Suffix: Lane
+	Result: Weatherby Ln
+
+	Input: Ash Creek Lane
+	['Ash', 'Creek', 'Lane']
+	Frag_num: 3
+	Prefix: Ash
+	Suffix: Lane
+	Result: Ash Creek Ln
+
+	Input: Watercrest Drive
+	['Watercrest', 'Drive']
+	Frag_num: 2
+	Prefix: Watercrest
+	....Warning: prefix dictionary may not have been sufficient to support: Watercrest
+	Suffix: Drive
+	Result: Watercrest Dr
+
+	Input: Lakebrook Drive
+	['Lakebrook', 'Drive']
+	Frag_num: 2
+	Prefix: Lakebrook
+	....Warning: prefix dictionary may not have been sufficient to support: Lakebrook
+	Suffix: Drive
+	Result: Lakebrook Dr
+
+	Input: Lakebrook Drive
+	['Lakebrook', 'Drive']
+	Frag_num: 2
+	Prefix: Lakebrook
+	Suffix: Drive
+	Result: Lakebrook Dr
+
+	Input: Charles Place
+	['Charles', 'Place']
+	Frag_num: 2
+	Prefix: Charles
+	....Warning: prefix dictionary may not have been sufficient to support: Charles
+	Suffix: Place
+	Result: Charles Pl
+
+	Input: Trail Lake Drive
+	['Trail', 'Lake', 'Drive']
+	Frag_num: 3
+	Prefix: Trail
+	Prefix: Lake (switched)
+	....Warning: prefix dictionary may not have been sufficient to support: Lake
+	Suffix: Trail
+	Result: Lake Drive Tr
+
+	Input: Trail Lake Drive
+	['Trail', 'Lake', 'Drive']
+	Frag_num: 3
+	Prefix: Trail
+	Prefix: Lake (switched)
+	Suffix: Trail
+	Result: Lake Drive Tr
+
+	Input: Silver Lake Drive
+	['Silver', 'Lake', 'Drive']
+	Frag_num: 3
+	Prefix: Silver
+	Suffix: Drive
+	Result: Silver Lake Dr
+
+	Input: Silver Lake Drive
+	['Silver', 'Lake', 'Drive']
+	Frag_num: 3
+	Prefix: Silver
+	Suffix: Drive
+	Result: Silver Lake Dr
+
+	Input: Hummingbird Lane
+	['Hummingbird', 'Lane']
+	Frag_num: 2
+	Prefix: Hummingbird
+	....Warning: prefix dictionary may not have been sufficient to support: Hummingbird
+	Suffix: Lane
+	Result: Hummingbird Ln
+
+	Input: Trail Lake Drive
+	['Trail', 'Lake', 'Drive']
+	Frag_num: 3
+	Prefix: Trail
+	Prefix: Lake (switched)
+	Suffix: Trail
+	Result: Lake Drive Tr
+
+	Input: Millington Drive
+	['Millington', 'Drive']
+	Frag_num: 2
+	Prefix: Millington
+	....Warning: prefix dictionary may not have been sufficient to support: Millington
+	Suffix: Drive
+	Result: Millington Dr
+
+	Input: Pickwick Lane
+	['Pickwick', 'Lane']
+	Frag_num: 2
+	Prefix: Pickwick
+	....Warning: prefix dictionary may not have been sufficient to support: Pickwick
+	Suffix: Lane
+	Result: Pickwick Ln
+
+	Input: Pickwick Lane
+	['Pickwick', 'Lane']
+	Frag_num: 2
+	Prefix: Pickwick
+	Suffix: Lane
+	Result: Pickwick Ln
+
+	Input: Pine Springs Drive
+	['Pine', 'Springs', 'Drive']
+	Frag_num: 3
+	Prefix: Pine
+	....Warning: prefix dictionary may not have been sufficient to support: Pine
+	Suffix: Drive
+	Result: Pine Springs Dr
+
+	Input: Pine Springs Drive
+	['Pine', 'Springs', 'Drive']
+	Frag_num: 3
+	Prefix: Pine
+	Suffix: Drive
+	Result: Pine Springs Dr
+
+	Input: Pickwick Lane
+	['Pickwick', 'Lane']
+	Frag_num: 2
+	Prefix: Pickwick
+	Suffix: Lane
+	Result: Pickwick Ln
+
+	Input: Pickwick Lane
+	['Pickwick', 'Lane']
+	Frag_num: 2
+	Prefix: Pickwick
+	Suffix: Lane
+	Result: Pickwick Ln
+
+	Input: Millington Drive
+	['Millington', 'Drive']
+	Frag_num: 2
+	Prefix: Millington
+	Suffix: Drive
+	Result: Millington Dr
+
+	Input: Chesterwood Drive
+	['Chesterwood', 'Drive']
+	Frag_num: 2
+	Prefix: Chesterwood
+	....Warning: prefix dictionary may not have been sufficient to support: Chesterwood
+	Suffix: Drive
+	Result: Chesterwood Dr
+
+	Input: Longfellow Drive
+	['Longfellow', 'Drive']
+	Frag_num: 2
+	Prefix: Longfellow
+	....Warning: prefix dictionary may not have been sufficient to support: Longfellow
+	Suffix: Drive
+	Result: Longfellow Dr
+
+	Input: Chesterwood Drive
+	['Chesterwood', 'Drive']
+	Frag_num: 2
+	Prefix: Chesterwood
+	Suffix: Drive
+	Result: Chesterwood Dr
+
+	Input: Chesterwood Drive
+	['Chesterwood', 'Drive']
+	Frag_num: 2
+	Prefix: Chesterwood
+	Suffix: Drive
+	Result: Chesterwood Dr
+
+	Input: Normandy Lane
+	['Normandy', 'Lane']
+	Frag_num: 2
+	Prefix: Normandy
+	....Warning: prefix dictionary may not have been sufficient to support: Normandy
+	Suffix: Lane
+	Result: Normandy Ln
+
+	Input: Allamore Drive
+	['Allamore', 'Drive']
+	Frag_num: 2
+	Prefix: Allamore
+	....Warning: prefix dictionary may not have been sufficient to support: Allamore
+	Suffix: Drive
+	Result: Allamore Dr
+
+	Input: Versailles Lane
+	['Versailles', 'Lane']
+	Frag_num: 2
+	Prefix: Versailles
+	....Warning: prefix dictionary may not have been sufficient to support: Versailles
+	Suffix: Lane
+	Result: Versailles Ln
+
+	Input: Versailles Lane
+	['Versailles', 'Lane']
+	Frag_num: 2
+	Prefix: Versailles
+	Suffix: Lane
+	Result: Versailles Ln
+
+	Input: Normandy Lane
+	['Normandy', 'Lane']
+	Frag_num: 2
+	Prefix: Normandy
+	Suffix: Lane
+	Result: Normandy Ln
+
+	Input: Normandy Lane
+	['Normandy', 'Lane']
+	Frag_num: 2
+	Prefix: Normandy
+	Suffix: Lane
+	Result: Normandy Ln
+
+	Input: Charles Place
+	['Charles', 'Place']
+	Frag_num: 2
+	Prefix: Charles
+	Suffix: Place
+	Result: Charles Pl
+
+	Input: Venice Court
+	['Venice', 'Court']
+	Frag_num: 2
+	Prefix: Venice
+	....Warning: prefix dictionary may not have been sufficient to support: Venice
+	Suffix: Court
+	Result: Venice Ct
+
+	Input: Lyon Court
+	['Lyon', 'Court']
+	Frag_num: 2
+	Prefix: Lyon
+	....Warning: prefix dictionary may not have been sufficient to support: Lyon
+	Suffix: Court
+	Result: Lyon Ct
+
+	Input: Travis Drive
+	['Travis', 'Drive']
+	Frag_num: 2
+	Prefix: Travis
+	....Warning: prefix dictionary may not have been sufficient to support: Travis
+	Suffix: Drive
+	Result: Travis Dr
+
+	Input: Travis Drive
+	['Travis', 'Drive']
+	Frag_num: 2
+	Prefix: Travis
+	Suffix: Drive
+	Result: Travis Dr
+
+	Input: Choctaw Drive
+	['Choctaw', 'Drive']
+	Frag_num: 2
+	Prefix: Choctaw
+	....Warning: prefix dictionary may not have been sufficient to support: Choctaw
+	Suffix: Drive
+	Result: Choctaw Dr
+
+	Input: Decator Drive
+	['Decator', 'Drive']
+	Frag_num: 2
+	Prefix: Decator
+	....Warning: prefix dictionary may not have been sufficient to support: Decator
+	Suffix: Drive
+	Result: Decator Dr
+
+	Input: Ables Drive
+	['Ables', 'Drive']
+	Frag_num: 2
+	Prefix: Ables
+	....Warning: prefix dictionary may not have been sufficient to support: Ables
+	Suffix: Drive
+	Result: Ables Dr
+
+	Input: Choctaw Drive
+	['Choctaw', 'Drive']
+	Frag_num: 2
+	Prefix: Choctaw
+	Suffix: Drive
+	Result: Choctaw Dr
+
+	Input: Ables Drive
+	['Ables', 'Drive']
+	Frag_num: 2
+	Prefix: Ables
+	Suffix: Drive
+	Result: Ables Dr
+
+	Input: Ables Drive
+	['Ables', 'Drive']
+	Frag_num: 2
+	Prefix: Ables
+	Suffix: Drive
+	Result: Ables Dr
+
+	Input: Parkhurst Court
+	['Parkhurst', 'Court']
+	Frag_num: 2
+	Prefix: Parkhurst
+	....Warning: prefix dictionary may not have been sufficient to support: Parkhurst
+	Suffix: Court
+	Result: Parkhurst Ct
+
+	Input: Browning Drive
+	['Browning', 'Drive']
+	Frag_num: 2
+	Prefix: Browning
+	....Warning: prefix dictionary may not have been sufficient to support: Browning
+	Suffix: Drive
+	Result: Browning Dr
+
+	Input: Wakefield Drive
+	['Wakefield', 'Drive']
+	Frag_num: 2
+	Prefix: Wakefield
+	....Warning: prefix dictionary may not have been sufficient to support: Wakefield
+	Suffix: Drive
+	Result: Wakefield Dr
+
+	Input: Longfellow Drive
+	['Longfellow', 'Drive']
+	Frag_num: 2
+	Prefix: Longfellow
+	Suffix: Drive
+	Result: Longfellow Dr
+
+	Input: Birdsong Lane
+	['Birdsong', 'Lane']
+	Frag_num: 2
+	Prefix: Birdsong
+	....Warning: prefix dictionary may not have been sufficient to support: Birdsong
+	Suffix: Lane
+	Result: Birdsong Ln
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	....Warning: prefix dictionary may not have been sufficient to support: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Longfellow Drive
+	['Longfellow', 'Drive']
+	Frag_num: 2
+	Prefix: Longfellow
+	Suffix: Drive
+	Result: Longfellow Dr
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	....Warning: prefix dictionary may not have been sufficient to support: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Blystone Lane
+	['Blystone', 'Lane']
+	Frag_num: 2
+	Prefix: Blystone
+	....Warning: prefix dictionary may not have been sufficient to support: Blystone
+	Suffix: Lane
+	Result: Blystone Ln
+
+	Input: Birdsong Lane
+	['Birdsong', 'Lane']
+	Frag_num: 2
+	Prefix: Birdsong
+	Suffix: Lane
+	Result: Birdsong Ln
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Birdsong Lane
+	['Birdsong', 'Lane']
+	Frag_num: 2
+	Prefix: Birdsong
+	Suffix: Lane
+	Result: Birdsong Ln
+
+	Input: Longfellow Drive
+	['Longfellow', 'Drive']
+	Frag_num: 2
+	Prefix: Longfellow
+	Suffix: Drive
+	Result: Longfellow Dr
+
+	Input: Early Morn Drive
+	['Early', 'Morn', 'Drive']
+	Frag_num: 3
+	Prefix: Early
+	....Warning: prefix dictionary may not have been sufficient to support: Early
+	Suffix: Drive
+	Result: Early Morn Dr
+
+	Input: Birdsong Lane
+	['Birdsong', 'Lane']
+	Frag_num: 2
+	Prefix: Birdsong
+	Suffix: Lane
+	Result: Birdsong Ln
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Wordsworth Drive
+	['Wordsworth', 'Drive']
+	Frag_num: 2
+	Prefix: Wordsworth
+	....Warning: prefix dictionary may not have been sufficient to support: Wordsworth
+	Suffix: Drive
+	Result: Wordsworth Dr
+
+	Input: Wordsworth Drive
+	['Wordsworth', 'Drive']
+	Frag_num: 2
+	Prefix: Wordsworth
+	Suffix: Drive
+	Result: Wordsworth Dr
+
+	Input: Wordsworth Drive
+	['Wordsworth', 'Drive']
+	Frag_num: 2
+	Prefix: Wordsworth
+	Suffix: Drive
+	Result: Wordsworth Dr
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Newcombe Drive
+	['Newcombe', 'Drive']
+	Frag_num: 2
+	Prefix: Newcombe
+	....Warning: prefix dictionary may not have been sufficient to support: Newcombe
+	Suffix: Drive
+	Result: Newcombe Dr
+
+	Input: Newcombe Drive
+	['Newcombe', 'Drive']
+	Frag_num: 2
+	Prefix: Newcombe
+	Suffix: Drive
+	Result: Newcombe Dr
+
+	Input: Crowley Drive
+	['Crowley', 'Drive']
+	Frag_num: 2
+	Prefix: Crowley
+	....Warning: prefix dictionary may not have been sufficient to support: Crowley
+	Suffix: Drive
+	Result: Crowley Dr
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Crowley Drive
+	['Crowley', 'Drive']
+	Frag_num: 2
+	Prefix: Crowley
+	Suffix: Drive
+	Result: Crowley Dr
+
+	Input: Newcombe Drive
+	['Newcombe', 'Drive']
+	Frag_num: 2
+	Prefix: Newcombe
+	Suffix: Drive
+	Result: Newcombe Dr
+
+	Input: Early Morn Drive
+	['Early', 'Morn', 'Drive']
+	Frag_num: 3
+	Prefix: Early
+	Suffix: Drive
+	Result: Early Morn Dr
+
+	Input: Newcombe Drive
+	['Newcombe', 'Drive']
+	Frag_num: 2
+	Prefix: Newcombe
+	Suffix: Drive
+	Result: Newcombe Dr
+
+	Input: Newcombe Drive
+	['Newcombe', 'Drive']
+	Frag_num: 2
+	Prefix: Newcombe
+	Suffix: Drive
+	Result: Newcombe Dr
+
+	Input: Fremont Lane
+	['Fremont', 'Lane']
+	Frag_num: 2
+	Prefix: Fremont
+	Suffix: Lane
+	Result: Fremont Ln
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Ringgold Lane
+	['Ringgold', 'Lane']
+	Frag_num: 2
+	Prefix: Ringgold
+	Suffix: Lane
+	Result: Ringgold Ln
+
+	Input: Daybreak Trail
+	['Daybreak', 'Trail']
+	Frag_num: 2
+	Prefix: Daybreak
+	....Warning: prefix dictionary may not have been sufficient to support: Daybreak
+	Suffix: Trail
+	Result: Daybreak Tr
+
+	Input: Evening Sun Drive
+	['Evening', 'Sun', 'Drive']
+	Frag_num: 3
+	Prefix: Evening
+	....Warning: prefix dictionary may not have been sufficient to support: Evening
+	Suffix: Drive
+	Result: Evening Sun Dr
+
+	Input: Daybreak Trail
+	['Daybreak', 'Trail']
+	Frag_num: 2
+	Prefix: Daybreak
+	Suffix: Trail
+	Result: Daybreak Tr
+
+	Input: Daybreak Trail
+	['Daybreak', 'Trail']
+	Frag_num: 2
+	Prefix: Daybreak
+	Suffix: Trail
+	Result: Daybreak Tr
+
+	Input: Daybreak Trail
+	['Daybreak', 'Trail']
+	Frag_num: 2
+	Prefix: Daybreak
+	Suffix: Trail
+	Result: Daybreak Tr
+
+	Input: Daybreak Trail
+	['Daybreak', 'Trail']
+	Frag_num: 2
+	Prefix: Daybreak
+	Suffix: Trail
+	Result: Daybreak Tr
+
+	Input: Rosehill Lane
+	['Rosehill', 'Lane']
+	Frag_num: 2
+	Prefix: Rosehill
+	....Warning: prefix dictionary may not have been sufficient to support: Rosehill
+	Suffix: Lane
+	Result: Rosehill Ln
+
+	Input: Fairbourne Circle
+	['Fairbourne', 'Circle']
+	Frag_num: 2
+	Prefix: Fairbourne
+	....Warning: prefix dictionary may not have been sufficient to support: Fairbourne
+	Suffix: Circle
+	Result: Fairbourne Cir
+
+	Input: Fairbourne Circle
+	['Fairbourne', 'Circle']
+	Frag_num: 2
+	Prefix: Fairbourne
+	Suffix: Circle
+	Result: Fairbourne Cir
+
+	Input: Courtside Lane
+	['Courtside', 'Lane']
+	Frag_num: 2
+	Prefix: Courtside
+	....Warning: prefix dictionary may not have been sufficient to support: Courtside
+	Suffix: Lane
+	Result: Courtside Ln
+
+	Input: Twilight Trail
+	['Twilight', 'Trail']
+	Frag_num: 2
+	Prefix: Twilight
+	....Warning: prefix dictionary may not have been sufficient to support: Twilight
+	Suffix: Trail
+	Result: Twilight Tr
+
+	Input: Midnight Drive
+	['Midnight', 'Drive']
+	Frag_num: 2
+	Prefix: Midnight
+	....Warning: prefix dictionary may not have been sufficient to support: Midnight
+	Suffix: Drive
+	Result: Midnight Dr
+
+	Input: Early Morn Drive
+	['Early', 'Morn', 'Drive']
+	Frag_num: 3
+	Prefix: Early
+	Suffix: Drive
+	Result: Early Morn Dr
+
+	Input: Rockingham Way
+	['Rockingham', 'Way']
+	Frag_num: 2
+	Prefix: Rockingham
+	....Warning: prefix dictionary may not have been sufficient to support: Rockingham
+	Suffix: Way (expected)
+	Result: Rockingham Way
+
+	Input: Early Morn Drive
+	['Early', 'Morn', 'Drive']
+	Frag_num: 3
+	Prefix: Early
+	Suffix: Drive
+	Result: Early Morn Dr
+
+	Input: Twilight Trail
+	['Twilight', 'Trail']
+	Frag_num: 2
+	Prefix: Twilight
+	Suffix: Trail
+	Result: Twilight Tr
+
+	Input: Midnight Drive
+	['Midnight', 'Drive']
+	Frag_num: 2
+	Prefix: Midnight
+	Suffix: Drive
+	Result: Midnight Dr
+
+	Input: Twilight Trail
+	['Twilight', 'Trail']
+	Frag_num: 2
+	Prefix: Twilight
+	Suffix: Trail
+	Result: Twilight Tr
+
+	Input: Twilight Trail
+	['Twilight', 'Trail']
+	Frag_num: 2
+	Prefix: Twilight
+	Suffix: Trail
+	Result: Twilight Tr
+
+	Input: Lantern Light Drive
+	['Lantern', 'Light', 'Drive']
+	Frag_num: 3
+	Prefix: Lantern
+	....Warning: prefix dictionary may not have been sufficient to support: Lantern
+	Suffix: Drive
+	Result: Lantern Light Dr
+
+	Input: Rockingham Way
+	['Rockingham', 'Way']
+	Frag_num: 2
+	Prefix: Rockingham
+	Suffix: Way (expected)
+	Result: Rockingham Way
+
+	Input: Early Morn Drive
+	['Early', 'Morn', 'Drive']
+	Frag_num: 3
+	Prefix: Early
+	Suffix: Drive
+	Result: Early Morn Dr
+
+	Input: Nightfall Drive
+	['Nightfall', 'Drive']
+	Frag_num: 2
+	Prefix: Nightfall
+	....Warning: prefix dictionary may not have been sufficient to support: Nightfall
+	Suffix: Drive
+	Result: Nightfall Dr
+
+	Input: Castlemaine Lane
+	['Castlemaine', 'Lane']
+	Frag_num: 2
+	Prefix: Castlemaine
+	....Warning: prefix dictionary may not have been sufficient to support: Castlemaine
+	Suffix: Lane
+	Result: Castlemaine Ln
+
+	Input: Lantern Light Drive
+	['Lantern', 'Light', 'Drive']
+	Frag_num: 3
+	Prefix: Lantern
+	Suffix: Drive
+	Result: Lantern Light Dr
+
+	Input: Nightfall Drive
+	['Nightfall', 'Drive']
+	Frag_num: 2
+	Prefix: Nightfall
+	Suffix: Drive
+	Result: Nightfall Dr
+
+	Input: Donnington Drive
+	['Donnington', 'Drive']
+	Frag_num: 2
+	Prefix: Donnington
+	....Warning: prefix dictionary may not have been sufficient to support: Donnington
+	Suffix: Drive
+	Result: Donnington Dr
+
+	Input: Castlemaine Lane
+	['Castlemaine', 'Lane']
+	Frag_num: 2
+	Prefix: Castlemaine
+	Suffix: Lane
+	Result: Castlemaine Ln
+
+	Input: Donnington Drive
+	['Donnington', 'Drive']
+	Frag_num: 2
+	Prefix: Donnington
+	Suffix: Drive
+	Result: Donnington Dr
+
+	Input: East Renner Road
+	['East', 'Renner', 'Road']
+	Frag_num: 3
+	Prefix: East
+	Suffix: Road
+	Result: E Renner Rd
+
+	Input: Los Rios Boulevard
+	['Los', 'Rios', 'Boulevard']
+	Frag_num: 3
+	Prefix: Los
+	....Warning: prefix dictionary may not have been sufficient to support: Los
+	Suffix: Boulevard
+	Result: Los Rios Blvd
+
+	Input: Northaven Road
+	['Northaven', 'Road']
+	Frag_num: 2
+	Prefix: Northaven
+	....Warning: prefix dictionary may not have been sufficient to support: Northaven
+	Suffix: Road
+	Result: Northaven Rd
+
+	Input: Thomas Street
+	['Thomas', 'Street']
+	Frag_num: 2
+	Prefix: Thomas
+	....Warning: prefix dictionary may not have been sufficient to support: Thomas
+	Suffix: Street
+	Result: Thomas St
+
+	Input: Shire Blvd
+	['Shire', 'Blvd']
+	Frag_num: 2
+	Prefix: Shire
+	....Warning: prefix dictionary may not have been sufficient to support: Shire
+	Suffix: Blvd (expected)
+	Result: Shire Blvd
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: Preston Road #116
+Word Count: 4
+Starting the Quick Highway scan...
+End of Quick Highway scan.
+Nothing has been found by the Quick Highway Address scan.
+Attempting the Quick Suite Designation scan...
+The quick Suite Designation scan is now complete.
+Running Word-by-Word scan and build...
+Searching for 'Preston'
+....It's a potential part of a known street name.
+Searching for 'Road'
+....It's a potential unconventional suffix.
+Searching for '116'
+....It's a potential suite designation.
+Deep scan is complete.
+Result: Preston Road
+
+	Input: Preston Road
+	['Preston', 'Road']
+	Frag_num: 2
+	Prefix: Preston
+	Suffix: Road
+	Result: Preston Rd
+
+	Input: Snider Plaza
+	['Snider', 'Plaza']
+	Frag_num: 2
+	Prefix: Snider
+	....Warning: prefix dictionary may not have been sufficient to support: Snider
+	Suffix: Plaza
+	....Warning: suffix dictionary may not have been sufficient to support: Plaza
+	Result: Snider Plaza
+
+	Input: Bush Avenue
+	['Bush', 'Avenue']
+	Frag_num: 2
+	Prefix: Bush
+	....Warning: prefix dictionary may not have been sufficient to support: Bush
+	Suffix: Avenue
+	Result: Bush Ave
+
+	Input: N Central Expy
+	['N', 'Central', 'Expy']
+	Frag_num: 3
+	Prefix: N (expected)
+	Suffix: Expy
+	....Warning: suffix dictionary may not have been sufficient to support: Expy
+	Result: N Central Expy
+
+	Input: Noel Road
+	['Noel', 'Road']
+	Frag_num: 2
+	Prefix: Noel
+	....Warning: prefix dictionary may not have been sufficient to support: Noel
+	Suffix: Road
+	Result: Noel Rd
+
+	Input: Naaman Forest Boulevard
+	['Naaman', 'Forest', 'Boulevard']
+	Frag_num: 3
+	Prefix: Naaman
+	....Warning: prefix dictionary may not have been sufficient to support: Naaman
+	Suffix: Boulevard
+	Result: Naaman Forest Blvd
+
+	Periods: 1 (removed)
+	Input: Montfort Dr
+	['Montfort', 'Dr']
+	Frag_num: 2
+	Prefix: Montfort
+	....Warning: prefix dictionary may not have been sufficient to support: Montfort
+	Suffix: Dr (expected)
+	Result: Montfort Dr
+
+	Input: Airline Road
+	['Airline', 'Road']
+	Frag_num: 2
+	Prefix: Airline
+	....Warning: prefix dictionary may not have been sufficient to support: Airline
+	Suffix: Road
+	Result: Airline Rd
+
+	Input: Preston Road
+	['Preston', 'Road']
+	Frag_num: 2
+	Prefix: Preston
+	Suffix: Road
+	Result: Preston Rd
+
+	Input: Preston Road
+	['Preston', 'Road']
+	Frag_num: 2
+	Prefix: Preston
+	Suffix: Road
+	Result: Preston Rd
+
+	Input: Spectrum Drive
+	['Spectrum', 'Drive']
+	Frag_num: 2
+	Prefix: Spectrum
+	....Warning: prefix dictionary may not have been sufficient to support: Spectrum
+	Suffix: Drive
+	Result: Spectrum Dr
+
+	Input: Inwood Road
+	['Inwood', 'Road']
+	Frag_num: 2
+	Prefix: Inwood
+	....Warning: prefix dictionary may not have been sufficient to support: Inwood
+	Suffix: Road
+	Result: Inwood Rd
+
+	Input: Forest Park Road
+	['Forest', 'Park', 'Road']
+	Frag_num: 3
+	Prefix: Forest
+	....Warning: prefix dictionary may not have been sufficient to support: Forest
+	Suffix: Road
+	Result: Forest Park Rd
+
+	Input: East Oates Road
+	['East', 'Oates', 'Road']
+	Frag_num: 3
+	Prefix: East
+	Suffix: Road
+	Result: E Oates Rd
+
+	Input: Belle Grove Drive
+	['Belle', 'Grove', 'Drive']
+	Frag_num: 3
+	Prefix: Belle
+	....Warning: prefix dictionary may not have been sufficient to support: Belle
+	Suffix: Drive
+	Result: Belle Grove Dr
+
+	Input: K Avenue
+	['K', 'Avenue']
+	Frag_num: 2
+	Prefix: K
+	....Warning: prefix dictionary may not have been sufficient to support: K
+	Suffix: Avenue
+	Result: K Ave
+
+	Input: Broadway Boulevard
+	['Broadway', 'Boulevard']
+	Frag_num: 2
+	Prefix: Broadway
+	....Warning: prefix dictionary may not have been sufficient to support: Broadway
+	Suffix: Boulevard
+	Result: Broadway Blvd
+
+	Input: Interstate 30 Frontage Rd
+	['Interstate', '30', 'Frontage', 'Rd']
+	Frag_num: 4
+	Prefix: Interstate
+	....Warning: prefix dictionary may not have been sufficient to support: Interstate
+	Suffix: Rd (expected)
+	Result: Interstate 30 Frontage Rd
+
+	Input: SMU Boulevard
+	['SMU', 'Boulevard']
+	Frag_num: 2
+	Prefix: SMU
+	....Warning: prefix dictionary may not have been sufficient to support: SMU
+	Suffix: Boulevard
+	Result: SMU Blvd
+
+	Input: Princeton Avenue
+	['Princeton', 'Avenue']
+	Frag_num: 2
+	Prefix: Princeton
+	....Warning: prefix dictionary may not have been sufficient to support: Princeton
+	Suffix: Avenue
+	Result: Princeton Ave
+
+	Input: Lyndon B Johnson Freeway
+	['Lyndon', 'B', 'Johnson', 'Freeway']
+	Frag_num: 4
+	Prefix: Lyndon
+	....Warning: prefix dictionary may not have been sufficient to support: Lyndon
+	Suffix: Freeway (expected)
+	Result: Lyndon B Johnson Freeway
+
+Cleaning problematic string value...
+No comma issues found.
+Beginning deep scan...
+Fragment: Interstate 30
+Word Count: 2
+Starting the Quick Highway scan...
+End of Quick Highway scan.
+Nothing has been found by the Quick Highway Address scan.
+Attempting the Quick Suite Designation scan...
+The quick Suite Designation scan is now complete.
+Running Word-by-Word scan and build...
+Searching for 'Interstate'
+....It's a potential part of a known street name.
+Searching for '30'
+....It's a potential part of a known street name.
+....It's a potential suite designation.
+Deep scan is complete.
+Result: Interstate 30 
+
+	Input: Interstate 30 
+	['Interstate', '30', '']
+	Frag_num: 3
+	Prefix: Interstate
+	Suffix: 
+	Result: Interstate 30 
+
+	Input: Mercer Drive
+	['Mercer', 'Drive']
+	Frag_num: 2
+	Prefix: Mercer
+	....Warning: prefix dictionary may not have been sufficient to support: Mercer
+	Suffix: Drive
+	Result: Mercer Dr
+
+	Input: Preston Road
+	['Preston', 'Road']
+	Frag_num: 2
+	Prefix: Preston
+	Suffix: Road
+	Result: Preston Rd
+
+The analysis process is now complete.
+Producing logs...
+Managing working directory...
+....We're in /home/ava/projects/Uda_Project_3/OSM_Auditor/dallas_map_sample.osm_dir
+Looking for /home/ava/projects/Uda_Project_3/OSM_Auditor/dallas_map_sample.osm_dir/logs
+....Directory does not exist.
+....Attempting to make directory logs
+/logs has been successfully created.
+Managing working directory...
+....We're in /home/ava/projects/Uda_Project_3/OSM_Auditor/dallas_map_sample.osm_dir/logs
+Changing directory
+....Currently in /home/ava/projects/Uda_Project_3/OSM_Auditor
+Looking for /home/ava/projects/Uda_Project_3/OSM_Auditor/learned
+....Directory does not exist.
+....Attempting to make directory learned
+/learned has been successfully created.
+Logs produced.
+[Finished in 7.3s]

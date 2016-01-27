@@ -1,0 +1,31 @@
+{
+  "Tue Jan 26 23:37:42 2016": {
+    "Marsh Lane #101": {
+      "suite": "101"
+    }, 
+    "Preston Rd #400": {
+      "suite": "400"
+    }, 
+    "Preston Road #500E": {
+      "suite": "500E"
+    }, 
+    "5223 alpha road dallas tx 75240": {
+      "city": "dallas", 
+      "state": "tx", 
+      "housenumber": "5223", 
+      "zipcode": "75240"
+    }, 
+    "Preston Road #116": {
+      "suite": "116"
+    }, 
+    "Avenue N Ste 3": {
+      "suite": "3"
+    }, 
+    "5229 alpha road dallas tx 75240": {
+      "city": "dallas", 
+      "state": "tx", 
+      "housenumber": "5229", 
+      "zipcode": "75240"
+    }
+  }
+}

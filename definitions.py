@@ -2,13 +2,16 @@
 
 definitions.py
 
-Brief:  incomplete specifications of Dallas County conventions for naming transportation paths,
-        in the form of regular expressions, arrays, and dictionaries. Also, never-to-be-complete
-        sets of definitions for problems, because only testing for expectations is not enough.
+Brief: incomplete specifications of Dallas County conventions for 
+       naming transportation paths, in the form of regular expressions,
+       arrays, and dictionaries. Also, never-to-be-complete sets of 
+       definitions for problems, because only testing for expectations 
+       is not enough.
 
-Note: there is a methodology much easier than this, that I have in the laterals of my mind and
-      have already written some of the code for here. I will implement it as an add-on in a future 
-      update, provided that I don't become too busy.
+Note: there is a methodology much easier than this, that I have in the 
+      laterals of my mind and have already written some of the code for 
+      here. I will implement it as an add-on in a future update, 
+      provided that I don't become too busy.
 
 Ronald Rihoo
 
@@ -42,8 +45,9 @@ expected_prefix = [ "N", "S", "E", "W" ]
 
 expected_suffix = [ "St",   "Ave",  "Blvd", "Dr",   "Ct", 
                     "Pl",   "Sq",   "Ln",   "Rd",   "Tr", 
-                    "Pkwy", "Cmns", "Cir",  "Ctr",  "Way",  
-                    "Expressway", "Highway", "Freeway",         # these three should be in their own list
+                    "Pkwy", "Cmns", "Cir",  "Ctr",  "Way", 
+                    # these three should be in their own list
+                    "Expressway", "Highway", "Freeway",
                   ]
 
 prefix = {
@@ -91,7 +95,8 @@ Problematic Street Name Conditions (For Dallas County)
 
 '''''
 
-# starting with digits that are immediately followed by a space; unapplicable characters anywhere; zip codes at the end
+# starting with digits that are immediately followed by a space; 
+# unapplicable characters anywhere; zip codes at the end
 problem_conditions_re = re.compile(r'(^[0-9]+ )|([=\+/&<>;"\?%#$@\,\t\r]+)|( [0-9]{4,5}$)|( [0-9]+[\-][0-9]+$)')
 problem_address_parts_re = re.compile(r'(?P<house_number>^[0-9]+ )|(?P<suite>(( ?)(([s,S][u,U]?[i,I]?[t,T]?[e,E]?#?)|(#))[0-9]+))|(?P<zip_code> [0-9]+[\-][0-9]+$)')
 problem_chars_nums_re = re.compile(r'(?P<bad_char>[=\+/&<>;"\?%#$@\,\t\r]+)|(?P<bad_num>(( [0-9]{4})|( [0-9]{6,}))$)')
@@ -111,16 +116,23 @@ interstate_re = re.compile(r'(^([a-z,A-Z]{2} ))(([a-z,A-Z]-)?([0-9]{1,3}))')
 
 '''''
 
-Other Problematic Street Names (an unfair section title, but I have to get this project done for now)
+Foreign Address Values in Street Names 
 
 '''''
 
-# Detect the following type of street value errors: "5223 alpha road dallas tx 75240" 
-#                                                   "5229 alpha road dallas tx 75240"
+# Detect the following type of street value errors: 
 #
-# Dissecting the error: { 'housenumber' : '5223', 'street name' : 'alpha road', 'city' : 'dallas', 'state': 'tx', 'zipcode': '75240' }
+# "5223 alpha road dallas tx 75240" 
+# "5229 alpha road dallas tx 75240"
 #
-# So someone or something (a bot) input all of that for the 'street name',--unbelievable!
+# Dissecting the error: { 'housenumber' : '5223', 
+#                         'street name' : 'alpha road', 
+#                         'city' : 'dallas', 
+#                         'state': 'tx', 
+#                         'zipcode': '75240' }
+#
+# So someone or something (a bot) input all of that for 
+# the 'street name',--unbelievable!
 
 # scan for 'housenumber' -- limited because of zipcode issue
 house_number_re = re.compile(r'(?P<house_number>(((^[^a-zA-z]+))([0-9]{1,4})( ?)))')
@@ -149,6 +161,15 @@ digits_re = re.compile(r'[0-9]+')
 #
 # scan for suite - 'suite', '#', suite number, suite letter as a sub-suite address
 suite_re = re.compile(r'(?P<suite>([s,S][u,U][i,I]?[t,T]?([e,E]?|([e,E] )?)))|((?P<suite_number>(#?)([0-9]+))(?P<suite_extention>((-[0-9]+)?))(?P<suite_letter>(([a-z,A-Z]$))?))')
+
+
+'''''
+
+United States Zipcode/Postcode Convention
+
+'''''
+
+US_zipcode_re = re.compile(r'((^([0-9]{5}))(-?)(([0-9]{4})?)(?!\d|\D))')
 
 
 '''''

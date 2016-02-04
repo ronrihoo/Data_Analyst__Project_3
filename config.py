@@ -14,6 +14,7 @@ __all__ = [ 'grab_filename',
 			'grab_report_input_name_preference', 
 			'grab_report_lateral_name_parts_preference',
 			'grab_report_result_preference',
+			'grab_report_zipcode_preference',
 			'grab_tabbed_output_preference' ]
 
 '''
@@ -24,21 +25,26 @@ Configuration
 
 ## File and Directory Settings
 
-filename = "dallas_map.osm"					# name of OSM file
+# name of OSM file
+filename = "map_smaller"
 
-directory_name = filename + "_dir"      	# name of folder that will be created and used for storing multiple log files
+# name of folder that will be created and used for storing 
+# multiple log files
+directory_name = filename + "_dir"
 
 
 ''' Event Monitoring and Tracking '''
 
 # Event Monitoring
 #
-# When 'True', the event messages will print out to the screen according to
-# the settings that follow. Logging will occur either way. Even though this
-# setting will not affect logging, the following settings will.
+# When 'True', the event messages will print out to the screen 
+# according to the settings that follow. Logging will occur either 
+# way. Even though this setting will not affect logging, the following
+# settings will.
 #
-# When 'False', all of the below settings will be irrelevant to the screen
-# output. However, the settings that follow will affect the logging process.
+# When 'False', all of the below settings will be irrelevant to the 
+# screen output. However, the settings that follow will affect the 
+# logging process.
 #
 monitor_events = True
 
@@ -49,7 +55,7 @@ monitor_events = True
 #		- each word in the given name, within a list
 #		- the number of words (or frags for fragments) in the name
 #
-# In the following example, it produces the flagged parts of the output:
+# In the following example, produces the flagged parts of the output:
 #
 #	 Input: North Coit Road 		<---
 #	 ['North', 'Coit', 'Road']		<---
@@ -63,9 +69,10 @@ report_basics = True
 
 # Reporting Input Value
 #
-# This is an alternative to reporting the basics and could be used when less event 
-# information is desired for printing out on the screen during runtime. It can be
-# useful for easier comparison between the input value and the output value (result).
+# This is an alternative to reporting the basics and could be used
+# when less event information is desired for printing out on the screen
+# during runtime. It can be useful for easier comparison between the 
+# input value and the output value (result).
 #
 # This includes only one item: 
 #		- the input name given
@@ -82,14 +89,14 @@ report_input = False
 
 # Reporting Lateral Name Parts
 #
-# Prints out the prefix and suffix of the provided street name, for visual
-# inspection of the values to gain more insight over the data.
+# Prints out the prefix and suffix of the provided street name, for
+# visual inspection of the values to gain more insight over the data.
 #
 # This includes two items: 
 #		- the prefix of the input name given
 #		- the suffix of the input name given
 #
-# In the following example, it produces the flagged parts of the output:
+# In the following example, produces the flagged parts of the output:
 #
 #	 Input: North Coit Road
 #	 Prefix: North					<---
@@ -99,7 +106,7 @@ report_input = False
 report_lateral_name_parts = True
 
 
-# Reporting the Result
+# Reporting the Street Result
 #
 # Shows the result of the reformatting/cleaning process.
 #
@@ -116,11 +123,26 @@ report_lateral_name_parts = True
 report_result = True
 
 
+# Reporting the Zipcode Scans and Cleaning Results
+#
+# This includes the following output:
+# 
+# 	Zipcode scanned and inserted into data with zero problems found
+#	Zipcode: 75206 
+#
+# or
+#
+# Error: problematic zipcode found in the 'postcode' tag.
+# 	Zipcode: TX 75074
+#	Cleaned: 75074
+#  
+report_zipcode = True
+
 # Reporting Errors
 #
-# This signal will induce the printing of error messages onto the screen.
+# This signal will induce the printing of error messages on the screen.
 #
-# Note: all errors will be logged in the .../log/error_log.json file, regardless.
+# All errors will be logged in .../log/error_log.json, regardless.
 #
 # This includes only one item: 
 #		- the resulting string after reformatting the given input name
@@ -130,7 +152,8 @@ report_result = True
 # No good fragments were found in this string.
 # No bad fragments were found in this string.
 # 
-# Error: street name value "TX 78" is a problematic string and will not be processed.
+# Error: street name value "TX 78" is a problematic string and will not
+#		 be processed.
 #
 # Greenville Ave
 # Input: Greenville Ave
@@ -142,15 +165,17 @@ report_errors = True						# prints error messages
 
 # Tabbed Output
 # 
-# For visual differentiation between regular and operational/troubled activity,
-# tabbing can be useful. In this case, the normal reformatting activity, such as
-# changing "North Arapaho Road" to "N Arapaho Rd", will be tabbed, along with other
-# minor contributions to the process (removing periods; switching word placement). 
+# For visual differentiation between regular and operational/troubled 
+# activities, tabbing can be useful. In this case, the normal 
+# reformatting activity, such as changing "North Arapaho Road" to 
+# "N Arapaho Rd", will be tabbed, along with other minor contributions 
+# to the process (removing periods; switching word placement). 
 #
-# Operational activities, such as switching directories and producing logs, will not 
-# be tabbed. Troubled activities, such as scanning problematic strings, will not be
-# tabbed either. This way, the analyst can more easily focus on either type of activity 
-# as needed during the analysis and/or troubleshooting process.
+# Operational activities, such as switching directories and producing
+# logs, will not be tabbed. Troubled activities, such as scanning 
+# problematic strings, will not be tabbed either. This way, the analyst
+# can more easily focus on either type of activity as needed during the 
+# analysis and/or troubleshooting process.
 # 
 # Here is an example of tabbed output:
 #
@@ -240,6 +265,9 @@ def grab_report_lateral_name_parts_preference():
 
 def grab_report_result_preference():
 	return report_result
+
+def grab_report_zipcode_preference():
+	return report_zipcode
 
 def grab_report_errors_preference():
 	return report_errors
